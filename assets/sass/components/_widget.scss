@@ -1,0 +1,29 @@
+.widget-area {
+	position: relative;
+	height: auto;
+	padding: 40px 0px;
+	ul {
+		padding-left: 20px;
+		li {
+			list-style-type: none;
+			margin-bottom: 5px;
+			&:before {
+				content:  "\f0da";
+				font-family: FontAwesome;
+				display: inline-block;
+				width: 15px;
+				margin-left: -18px;
+			}
+		}
+	}
+}
+
+.widget-title {
+	position: relative;
+	height: 40px;
+	margin-bottom: 10px;
+	h4 {
+		position: absolute;
+		bottom: 0px;
+	}
+}

@@ -1,0 +1,314 @@
+.scrolled {
+	.navbar-brand {
+		img {
+			transition-duration: 0.3s;
+			height: 40px;
+			width: auto;
+		}
+	}
+	.navbar-form {
+		transition-duration: 0.3s;
+		margin-top: 5px;
+		position: relative;
+	}
+
+	.navbar-nav {
+		& > li {
+			& > a {
+				@media only screen and (min-width: 768px) {
+					transition-duration: 0.3s;
+					padding: 15px 15px 10px 10px;
+					padding-bottom: 10px;
+				}
+			}
+		}
+	}
+}
+
+.scrolled.navbar-default {
+	.navbar-collapse {
+		transition-duration: 0.3s;
+		margin: 0px;
+	}
+}
+
+.navbar-brand {
+	padding: 5px 15px;
+	height: auto;
+	img {
+		transition-duration: 0.3s;
+		height: 60px;
+		width: auto;
+	}
+}
+
+.navbar-default {
+	.navbar-collapse {
+		transition-duration: 0.3s;
+		padding: 0px 20px;
+		margin: 0px;
+		border-radius: 2px;
+	}
+}
+
+
+.navbar-nav {
+	& > li {
+		margin: 0px;
+		& > .dropdown-menu {
+			margin-top: 1px;
+			border-radius: 0px;
+			border: 0px;
+			padding: 10px 10px;
+			& > li > a {
+				padding: 3px 5px;
+			}
+		}
+		& > a {
+			@media only screen and (min-width: 768px) {
+				transition-duration: 0.3s;
+				padding: 25px 15px 20px 10px;
+				padding-bottom: 20px;
+			}
+		}
+	}
+}
+
+.search-form {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	.form-control {
+		height: 39px;
+		border-radius: 2px;	
+		&:focus {
+			&::-moz-placeholder, &:-ms-input-placeholder, &::-webkit-input-placeholder {
+				color: transparent;
+				opacity: 1;
+			}
+		}
+	}
+	.btn-search {
+		@include btn-search( 17px );
+	  	right: 2px;
+	}
+}
+
+.navbar-form {
+	transition-duration: 0.3s;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	position: relative;
+	.searchform {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.form-control {
+		height: 39px;
+		border-radius: 2px;
+		&:focus {
+			&::-moz-placeholder, &:-ms-input-placeholder, &::-webkit-input-placeholder {
+				color: transparent;
+				opacity: 1;
+			}
+		}
+	}
+	.btn-search {
+		@include btn-search( 2px );
+	}
+}
+
+.sidebar {
+	border-left: 1px dotted rgba(41, 128, 185, .3);
+}
+
+#sidebar-info-menu {
+	ul {
+		li {
+			transition-duration: 0.3s;
+			position: relative;
+			padding-left: 48px;
+			a {
+				color: #333;
+				font-size: 22px;
+				&:hover, &:focus, &:active, &:visited {
+					background-color: transparent;
+				}
+				small {
+					color: #666;
+					font-weight: 300;
+					font-size: 14px;
+					display: block;
+				}
+			}
+			&:hover {
+				background-color: rgba(52, 152, 219, .1);
+			}
+			&:before {
+				text-align: center;
+				font-family: FontAwesome;
+				font-size: 40px;
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				left: 12px;
+			}
+		}
+	}
+	.main-sidebar-info {
+		border: 1px solid #f4f4f4;
+		background: repeating-linear-gradient(
+			-55deg,
+			#f4f4f4,
+			#f4f4f4 10px,
+			rgba(255, 255, 255, 0.1) 10px,
+			rgba(255, 255, 255, 0.1) 20px
+		);
+		&:hover {
+			background: rgba(52, 152, 219, .1);
+		}
+	}
+}
+
+.more-information-links {
+	padding-left: 20px;
+	li {
+		list-style-type: none;
+		margin-bottom: 5px;
+		a {
+			font-weight: bold;
+		}
+		&:before {
+			content:  "\f0da";
+			font-family: FontAwesome;
+			display: inline-block;
+			width: 15px;
+			margin-left: -18px;
+		}
+	}
+}
+
+.widget-area {
+	ul {
+		li.icon-socmed {
+			@include icon-socmed( inline-block );
+			font-size: 0px;
+			a {
+				content: "";
+			}
+		}
+	}
+}
+
+ul { 
+	li.icon-rounded {
+		@include icon-socmed( block );
+	}
+}
+
+.featured-icon {
+	padding: 20px 0px;
+}
+
+.fa.fa-lg, .zmdi.fa-lg {
+	font-size: 8em;
+}
+
+.contact-form { 
+	.fa-envelope {
+	    background-color: #fff;
+	    height: 80px;
+	    width: 80px;
+	    border-radius: 50%;
+	    padding: 13px 13px;
+	    border: 2px solid #3498db;
+	    font-size: 3.5em;
+	    color: #3498db;
+	}
+}
+
+#maps {
+    width: 100%;
+    height: 435px;
+}
+
+#single {
+	#maps {
+	    width: 100%;
+	    height: 200px;
+	}
+}
+
+#menu-connect-with-us {
+	padding-left: 0px;
+	li {
+		display: table;
+		&:before {
+			display: table-cell;
+			font-family: FontAwesome;
+		    font-style: normal;
+		    font-weight: normal;
+		    font-size: 26px;
+		    padding-right: 0.5em;
+		    left: 0;
+			vertical-align: middle;
+		}
+	}
+}
+
+.fb-socmed:before {
+	content: "\f082";
+	color: #3b5998;
+}
+
+.tw-socmed:before {
+	content: "\f081";
+	color: #00aced;
+}
+
+.message-socmed:before {
+	content: "\f003";
+	color: #444;
+}
+
+.wa-socmed:before {
+	content: "\f232";
+	color: #43d854;
+}
+
+#menu-connect-with-us { 
+	li {
+		a {
+			display: table-cell;
+			vertical-align: middle;
+		}
+	}
+}
+
+.text-primary {
+	color: #3498db;
+}
+
+.text-success {
+	color: #2ecc71;
+}
+
+.text-info {
+	color: #1abc9c;
+}
+
+.text-warning {
+	color: #f39c12;
+}
+
+.text-reverse {
+	color: #34495e;
+}
+
+.text-danger {
+	color: #e74c3c;
+}
+
+.fa-danger-light {
+	color: #FF9989;
+}

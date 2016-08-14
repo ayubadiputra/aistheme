@@ -1,0 +1,253 @@
+#searchform .input-group-btn.form-select {
+	display: none;
+	-webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+}
+
+.navbar-form .btn-search {
+	z-index: 3;
+}
+
+.pagination .page-numbers {
+    text-decoration: none;
+    margin: 0px 5px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 9px 14px;
+    color: #fff;
+    background-color: #3498db;
+}
+
+.pagination .page-numbers.next,
+.pagination .page-numbers.prev {
+	background-color: #f1f1f1;
+	border: 1px solid #eaeaea;
+	color: #666;
+}
+
+.pagination .page-numbers.current {
+	background-color: #fff;
+	border: 1px solid #eaeaea;
+	color: #666;
+}
+
+.section-sub-title a {
+	color: rgb(51, 51, 51);
+}
+
+.alert-success {
+    background-color: rgba(26, 188, 156,.8);
+    border-color: rgba(26, 188, 156,1.0);
+    color: #fafafa;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.entry-label-top-side .fa {
+  font-size: 22px;
+  left: 6px;
+  position: relative;
+  top: 4px;
+}
+
+#single.single-guide .entry-content ul li, #single.single-guide .entry-content ol li {
+  list-style: none;
+}
+
+.table-airlines thead {
+  background-color: #333;
+  color: #fff;
+}
+
+.table-list.table.table-striped td img {
+  margin-bottom: 10px;
+}
+
+.table-list.table.table-striped td.image {
+  font-weight: bold;
+  text-align: center;
+}
+
+.services-icon {
+  padding: 20px 0px 20px 30px;
+}
+
+.services-icon .fa {
+  font-size: 32px;
+  color: #34495e;
+}
+
+.services-title {
+  margin-bottom: 5px;
+  margin-top: 12px;
+}
+
+.services-title a {
+  color: #444;
+}
+
+.services-content {
+  color: #666;
+}
+
+.sidebar .widget-title h4 {
+    position: absolute;
+    bottom: 0px;
+    font-weight: 300;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(77, 77, 77, 0.1);
+    position: relative;
+    font-size: 24px;
+}
+
+.sidebar .widget-title h4:before {
+    bottom: -1px;
+    height: 2px;
+    width: 100px;
+    background-color: #FF6656;
+    position: absolute;
+    content: " ";
+}
+
+#menu-more-information-links {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+#menu-more-information-links li:before {
+    content: "\f0da";
+    font-family: FontAwesome;
+    display: inline-block;
+    width: 15px;
+    margin-left: -18px;
+}
+
+#menu-more-information-links li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+#menu-more-information-links li a {
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 767px) {
+  .entry-contet img {
+      max-width: 100%;
+      height: auto;
+  }
+  .section-divider {
+    max-width: 280px;
+  }
+  .schedule-table .table {
+    max-width: 300px;
+    margin-bottom: 20px;
+    overflow-x: scroll;
+    display: block;
+  }
+  .scrolled .navbar-toggle {
+    margin-top: 8px;
+  }
+  .navbar-toggle {
+    margin-top: 18px;
+  }
+  .schedule-table .table.close {
+    display: none;
+  }
+  .caret {
+    display: none;
+  }
+  .interesting-content-container, #partners img {
+    margin-bottom: 20px;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #fff;
+  }
+  .nopad-onmob {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #archive #entry .entry-title {
+    margin-top: 10px;
+  }
+  .sidebar {
+    border: none;
+  }
+  .page-inline .prev-part, .page-inline .next-part {
+    bottom: 20px;
+  }
+}
+
+.loader,
+.loader:before,
+.loader:after {
+  border-radius: 50%;
+}
+.loader:before,
+.loader:after {
+  position: absolute;
+  content: '';
+}
+.loader:before {
+  width: 2.6em;
+  height: 5.1em;
+  background: #e74c3c;
+  border-radius: 5.1em 0 0 5.1em;
+  top: -0.1em;
+  left: -0.1em;
+  -webkit-transform-origin: 2.6em 2.5em;
+  transform-origin: 2.6em 2.5em;
+  -webkit-animation: load2 2s infinite ease 1.5s;
+  animation: load2 2s infinite ease 1.5s;
+}
+.loader {
+  font-size: 11px;
+  text-indent: -99999em;
+  margin: 55px auto;
+  position: relative;
+  width: 10em;
+  height: 10em;
+  box-shadow: inset 0 0 0 1em #ffffff;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.loader:after {
+  width: 2.6em;
+  height: 5.1em;
+  background: #e74c3c;
+  border-radius: 0 5.1em 5.1em 0;
+  top: -0.1em;
+  left: 2.5em;
+  -webkit-transform-origin: 0px 2.5em;
+  transform-origin: 0px 2.5em;
+  -webkit-animation: load2 2s infinite ease;
+  animation: load2 2s infinite ease;
+}
+@-webkit-keyframes load2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+}
+@keyframes load2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+}

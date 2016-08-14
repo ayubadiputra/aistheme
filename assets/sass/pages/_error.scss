@@ -1,0 +1,36 @@
+#error {
+	position: relative;
+	height: calc(100vh - 361px);
+	h1 {
+		color: #444;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		font-size: 120px;
+		line-height: 1;
+	}
+	h3, h2.no-post-found {
+		color: #888;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.search-form {
+		margin-top: 40px;
+	}
+	.error-left { 
+		h1 {
+			font-size: 150px;
+		}
+	}
+}
+
+.error-container {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	color: #fff;
+}
+
+.error-both {
+	position: relative;
+}

@@ -1,0 +1,29 @@
+.twp-form-table {
+	background-color: #fafafa;
+	margin-top: 20px;
+}
+
+.twp-form-table tr:first-child td, .twp-form-table tr:first-child th {
+	padding-top: 15px;
+}
+
+.twp-form-table tr:last-child td, .twp-form-table tr:last-child th {
+	padding-bottom: 15px;
+}
+
+.twp-form-table td, .twp-form-table th {
+	padding: 0px 20px;
+	padding-bottom: 15px;
+	vertical-align: middle;
+}
+
+.twp-form-table td.checkbox {
+	padding: 5px 20px;
+}
+
+.twp-form-table input.input-control {
+	border-radius: 2px;
+	height: 36px;
+	width: 100%;
+	max-width: 350px;
+}

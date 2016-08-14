@@ -1,0 +1,26 @@
+@mixin btn-search( $right ) {
+	position: absolute;
+	right: $right;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: #ffffff;
+  	color: #999999;
+}
+
+@mixin icon-search ( $display ) {
+	margin-left: 0px;
+	margin-right: 5px;
+	position: relative;
+	cursor: pointer;
+	width: 40px;
+	display: $display;
+}
+
+@mixin icon-socmed ( $display ) {
+	margin-left: 0px;
+	margin-right: 5px;
+	position: relative;
+	display: $display;
+	cursor: pointer;
+	width: 40px;
+}

@@ -1,0 +1,26 @@
+#welcome-container {
+	position: relative;
+	height: 100vh;
+	background-color: #3498db;
+}
+
+#welcome {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	width: 100%;
+	color: #fff;
+}
+
+.contact-form {
+	margin-bottom: 40px;
+	input.form-control {
+		height: 40px;
+		border-radius: 2px;
+	}
+}
+
+.form-horizontal.contact-form .control-label {
+	padding-top: 0px;
+}

@@ -1,0 +1,3 @@
+1. All master CSS stored in ais-blue.
+2. When it done, CSS style will be moved to others CSS files.
+3. Don't forget to replace all style colors.

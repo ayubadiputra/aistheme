@@ -1,0 +1,160 @@
+.ais-settings-menu-area .ais-settings-menu {
+  background-color: #44566b;
+}
+.ais-settings-menu-area .ais-settings-menu .ais-settings-item.active {
+  border-bottom: 4px solid #22c3ec;
+  background-color: #4e6075;
+  cursor: pointer;
+}
+.ais-settings-menu-area .ais-settings-menu .ais-settings-item.active a {
+  padding: 14px 20px 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.ais-settings-menu-area .ais-settings-menu .ais-settings-item {
+  display: inline-block;
+  padding: 14px 0px 10px;
+  margin-bottom: 0px;
+  border-bottom: 4px solid transparent;
+  background-color: #44566b;
+  cursor: pointer;
+}
+.ais-settings-menu-area .ais-settings-menu .ais-settings-item a {
+  padding: 14px 20px 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.ais-settings-menu-area .ais-settings-menu .ais-settings-item:hover {
+  border-bottom: 4px solid #22c3ec;
+  background-color: #4e6075;
+  cursor: pointer;
+}
+.ais-settings-menu-area .ais-settings-menu .ais-settings-item:hover a {
+  padding: 14px 20px 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.theme-option {
+  background-color: #fff;
+  padding: 10px;
+}
+.theme-option .sub-title {
+  padding: 0px 0px 14px;
+  border-bottom: 1px solid #eaeaea;
+  position: relative;
+}
+.theme-option .sub-title:before {
+  content: " ";
+  background-color: #44566b;
+  width: 100px;
+  height: 4px;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+}
+
+.side-metabox .div-notes {
+  display: block;
+  margin: 8px 0px;
+}
+.side-metabox .select-inline-area {
+  display: block;
+  margin: 0px 0px 20px;
+  border-bottom: 1px dotted #eaeaea;
+}
+.side-metabox .select-inline-area .select-inline-container {
+  display: table;
+  width: 100%;
+}
+.side-metabox .select-inline-area .select-inline-container .select-inline-label {
+  font-size: 14px;
+  font-weight: bold;
+  display: table-cell;
+  vertical-align: middle;
+}
+.side-metabox .select-inline-area .select-inline-container .select-inline-content {
+  display: table-cell;
+  text-align: right;
+}
+.side-metabox .input-inline-area {
+  display: block;
+  margin: 0px 0px 20px;
+  border-bottom: 1px dotted #eaeaea;
+}
+.side-metabox .input-inline-area .input-inline-container {
+  display: table;
+  width: 100%;
+}
+.side-metabox .input-inline-area .input-inline-container .input-inline-label {
+  font-size: 14px;
+  font-weight: bold;
+  display: table-cell;
+  vertical-align: middle;
+}
+.side-metabox .input-inline-area .input-inline-container .input-inline-content {
+  display: table-cell;
+  text-align: right;
+}
+.side-metabox .input-block-area {
+  display: block;
+  margin: 0px 0px 20px;
+  border-bottom: 1px dotted #eaeaea;
+}
+.side-metabox .input-block-area .input-block-container {
+  width: 100%;
+}
+.side-metabox .input-block-area .input-block-container .input-block-label {
+  font-size: 14px;
+  font-weight: bold;
+}
+.side-metabox .input-block-area .input-block-container .input-block-content {
+  display: block;
+  margin-top: 5px;
+}
+.side-metabox .input-block-area .input-block-container .input-block-content input {
+  width: 100%;
+}
+
+.table-area th {
+  text-align: left;
+  background-color: #3d566e;
+  color: #fff;
+  padding: 5px;
+}
+.table-area td {
+  vertical-align: top;
+}
+
+.form-table.table-top td {
+  vertical-align: top;
+}
+
+.table-top td input, .table-top td textarea {
+  width: 100%;
+}
+
+.table-top, .table-top tr, .table-top td, .table-top th {
+  border: 1px solid #f4f4f4;
+}
+
+.table-top th {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+.table-top th.action {
+  max-width: 20px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.hide {
+  display: none;
+}

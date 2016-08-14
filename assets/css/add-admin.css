@@ -1,0 +1,25 @@
+.form-table.table-top td {
+	vertical-align: top;
+}
+
+.table-top td input, .table-top td textarea {
+	width: 100%;
+}
+
+.table-top, .table-top tr, .table-top td, .table-top th {
+	border: 1px solid #f4f4f4;
+}
+
+.table-top th {
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.hide {
+	display: none;
+}

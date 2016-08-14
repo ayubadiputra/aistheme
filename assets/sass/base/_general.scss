@@ -1,0 +1,34 @@
+body {
+	font-family: $sanserif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-weight: 600;
+}
+
+.img-full {
+	width: 100%;
+	max-width: 100%;
+}
+
+.nopad {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.nopad-left {
+	padding-left: 0px;
+}
+
+.section-divider {
+	content: " ";
+	height: 1px;
+	width: 600px;
+	background-color: #eaeaea;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
